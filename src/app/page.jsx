@@ -1,6 +1,7 @@
 import CustomUseRouter from "@/components/customUseRouter";
 import LearnClientComponent from "@/components/LearnClientComponent";
 import LearnCSSModule from "@/components/LearnCSSModule";
+import LearnDataFetching from "@/components/LearnDataFetching";
 import LearnLink from "@/components/LearnLink";
 import LearnServerComponent from "@/components/LearnServerComponent";
 import LearnUseGlobalCSS from "@/components/LearnUseGlobalCSS";
@@ -15,7 +16,8 @@ export default function Home() {
       {/* <LearnClientComponent /> */}
       {/* <LearnUseGlobalCSS /> */}
       {/* <LearnCSSModule /> */}
-      <LearnUseImage />
+      {/* <LearnUseImage /> */}
+      <LearnDataFetching />
     </main>
   );
 }
